@@ -1,0 +1,91 @@
+
+section {
+    padding: 85px 0;
+}
+
+.container,
+section .wp-block-group__inner-container {
+    padding: 0 40px;
+}
+
+/*HEADER*/
+
+#site-header.header-anime {
+    background: linear-gradient(rgb(0,0,0, 0.7), rgb(0,0,0), rgb(0,0,0, 0.7));
+}
+
+.nav-block {
+    z-index: 0;
+}
+
+#site-header .container {
+    background: transparent;
+}
+
+.brand {
+    padding-top: 0;
+}
+
+.menu-container {
+    align-items: center;
+}
+
+.toggle-nav {
+    display: none !important;
+}
+
+.nav-block {
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+    top: 0;
+    background: transparent;
+}
+
+body.admin-bar .nav-block {
+    top: 0;
+}
+
+.menu-menu-container {
+    padding-top: 0;
+}
+
+.menu-menu-container ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-menu-container li {
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.menu-menu-container li a:hover {
+    font-weight: 700;
+    color: var(--red);
+    transition: all 0.5s;
+}
+
+.menu-menu-container li:last-child:hover {
+    border: 1px solid var(--black);
+    background: var(--red);
+    transition: all 0.5s;
+}
+
+.menu-menu-container li:last-child:hover a {
+    color: var(--black);
+    transition: all 0.5s;
+}
+
+
+/*CONTENT*/
+
+.slick-slide img {
+    height: 440px;
+    width: auto;
+}
+

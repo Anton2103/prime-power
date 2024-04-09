@@ -1,0 +1,40 @@
+
+
+/* HEADER */
+
+.menu-menu-container ul {
+    gap: 80px;
+}
+
+/* MAIN SECTION */
+
+.slick-slide img {
+    height: 350px;
+    width: auto;
+}
+
+#main_section .wp-block-columns {
+    justify-content: space-around;
+}
+
+.wp-block-getwid-images-slider.has-arrows-inside .slick-next {
+    right: 20%;
+}
+
+.wp-block-getwid-images-slider.has-arrows-inside .slick-prev {
+    left: 20%;
+}
+
+h1 {
+    padding-top: 0;
+}
+
+#main_section .wp-block-buttons {
+    gap: 36px;
+}
+
+/* DESCTRIPTION */
+
+#description p {
+    width: 77%;
+}

@@ -1,0 +1,83 @@
+
+#hero-video {
+    position: relative;
+    z-index: -1;
+}
+
+#hero {
+    height:calc( 100vh - 77px );
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#hero::after {
+    width:100%;
+    height:calc( 100% - 75px);
+    content: '';
+    position:absolute;
+    z-index:10;
+    top:75px;
+    left:0;
+    background:rgba(0,0,0,0.5)
+}
+
+#hero video {
+    width:100%;
+    height:calc( 100% - 75px);
+    position:absolute;
+    top:75px;
+    left:0;
+    z-index:5;
+    object-fit:cover;
+    font-family:'object-fit: cover';
+}
+
+#hero .texture {
+    width:100%;
+    height:calc( 100% - 75px);
+    position:absolute;
+    top:75px;
+    left:0;
+    z-index:15;
+    background:url('texture.png');
+}
+
+
+#hero .caption {
+    position:relative;
+    z-index:20;
+    text-align:center;
+    color:#ffffff;
+}
+
+#hero .caption h1 {
+    text-transform: uppercase;
+    margin-bottom:0.5rem;
+    line-height: 0.7;
+    -webkit-box-reflect: below -1px -webkit-linear-gradient(transparent, #0006);
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#hero .caption h2 {
+    font-weight:400;
+    margin:0;
+    padding-top: 60px;
+    text-transform: none;
+    text-align: center;
+}
+

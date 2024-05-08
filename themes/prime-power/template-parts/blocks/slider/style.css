@@ -1,0 +1,17 @@
+.slider-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.slider-wrapper .slide{
+    box-sizing: border-box;
+    margin: 0 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slider-wrapper .slide img {
+    width: 100%;
+    height: auto;
+}

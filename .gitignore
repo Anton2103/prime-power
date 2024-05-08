@@ -5,10 +5,10 @@
 
 !themes/
 themes/*
-!themes/prima-power/
-!themes/prima-power/languages
-themes/prima-power/languages/*
-themes/prima-power/vendor
+!themes/prime-power/
+!themes/prime-power/languages
+themes/prime-power/languages/*
+themes/prime-power/vendor
 
 !plugins/
 plugins/*

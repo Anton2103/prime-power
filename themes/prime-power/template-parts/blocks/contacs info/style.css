@@ -1,0 +1,60 @@
+
+.dark-mode #contactsInf .wp-block-group__inner-container .wp-block-columns {
+    background: transparent!important;
+}
+
+#contactsInf .contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.socials__text {
+    text-align: center;
+}
+
+.socials__header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.socials__link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #010101;*/
+    width: 230px;
+    height: 52px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    margin: 10px auto 30px auto;
+}
+
+.socials__link img {
+    width: 30px;
+}
+
+.socials__link span {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.dark-mode .socials__link span {
+    color: var(--moderate_cyan);
+}
+
+.socials__link a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.phone-name {
+    width: 300px;
+    margin: auto;
+    word-break: keep-all;
+}

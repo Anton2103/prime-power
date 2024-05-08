@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/prime_power",
+  "description": "Theme for Prime Power",
+  "authors": [
+    {
+      "name": "Anton G.",
+      "email": "gaitanzhy@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "" : ""
+    }
+  },
+  "require-dev": {
+  }
+}

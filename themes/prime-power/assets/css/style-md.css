@@ -1,0 +1,43 @@
+
+h2 {
+    text-align: end;
+    padding: 30px 0;
+}
+
+
+.blog-content {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.wp-block-post-comments-form .form-submit input {
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.menu {
+    gap: 0;
+}
+
+/* content */
+
+#tariff ul {
+    padding: 0 0 0 50px;
+}
+
+/* FOOTER */
+
+.footer-contacts {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-container .button-grow {
+    order: 1;
+}
+
+.wp-block-getwid-images-stack {
+    width: 50%;
+}
